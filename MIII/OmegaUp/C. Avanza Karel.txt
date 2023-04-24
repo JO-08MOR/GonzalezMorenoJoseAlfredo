@@ -1,9 +1,0 @@
-class program {
-    program () {
-        // TODO poner codigo aqui
-        iterate(10){
-        move();
-        }
-        turnoff();
-    }
-}
