@@ -1,0 +1,25 @@
+.search-bar{
+    margin-right: 12px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.imag{
+    width: 300px;
+    display: block;
+}
+.video-author,
+.video-stats
+{
+    display: inline-block;
+}
+
+.vido-title{
+    width: 300px;
+
+}
+.video-preview{
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 15px;
+}

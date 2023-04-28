@@ -1,0 +1,71 @@
+class program
+{
+ void turnrigth()
+{
+turnleft();
+turnleft();
+turnleft();
+}
+void veAlInicio()
+{
+turnrigth();
+turnrigth();
+move();
+turnleft();
+move();
+turnrigth();
+move();
+turnrigth();
+move();
+turnleft();
+move();
+turnleft();
+turnleft();
+}
+void veAlPrimernumero()
+{
+  move();
+    turnrigth();
+    move();
+    turnleft();
+    move();
+    turnleft();
+    move();
+    turnrigth();
+    }
+void multiplica (n) 
+{
+if (nextToABeeper)
+{
+ pickbeeper();
+ multiplica(n);
+ iterate (n)
+ {
+ putbeeper();
+  }
+   }
+   else {
+  veAlInicio();
+  }
+ }
+ void cuenta (n) 
+ {
+  if (nextToABeeper)
+  {
+   pickbeeper();
+   cuenta( succ (n) );
+ }
+ else {
+  move();
+  multiplica (n);
+  }
+  }
+    program () {
+   veAlPrimernumero();
+    cuenta(0);
+    
+    
+        // TODO poner codigo aqui
+        turnoff();
+    }
+}
